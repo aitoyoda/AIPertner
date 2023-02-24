@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/*@import url("normalize.css");*/
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "M PLUS Rounded 1c";
+}
+
+body {
+    /* position: relative; */
+    /* background: #BBDBF3;  */
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#444cf7 0.35000000000000003px, #e5e5f7 0.35000000000000003px);
+    background-size: 7px 7px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+.headers {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000;
+}
+
+.headers .systemname {
+    right: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    max-width: 100%
+}
+
+h1 {
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #6495ed;
+    background-color: #6495ed;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+a {
+    text-decoration: none;
+}
