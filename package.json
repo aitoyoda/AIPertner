@@ -1,0 +1,24 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "main": "Hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "node-schedule": "^2.1.0",
+    "push.js": "^1.0.12",
+    "request": "^2.88.2",
+    "ws": "^8.12.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "flatpickr": "^4.6.13",
+    "node-notifier": "^10.0.1"
+  }
+}
